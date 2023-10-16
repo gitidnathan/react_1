@@ -68,3 +68,6 @@ yarn-error.log*
 # https://www.geeksforgeeks.org/
 # https://www.pragimtech.com/courses/react-js-tutorial-for-beginners/
 # https://www.pragimtech.com/blog/reactjs/introduction-to-react-elements/
+
+# to install node modules
+# npm i node-modules
