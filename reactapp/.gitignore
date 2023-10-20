@@ -39,7 +39,7 @@ yarn-error.log*
 # git merge <branch name>
 
 
-# to upload react project in github
+# to upload react project in github in the terminal command go to immediate project folder
 
 # step 1 (terminal)
 # npm install gh-pages --save-dev
@@ -49,20 +49,20 @@ yarn-error.log*
 
 # step 3 (terminal)
 # git remote rm origin
-# git remote add origin <repository url> url ex : https://github.com/<username>/<rep Name>.git
+# git remote add origin <repository url> url ex : https://github.com/gitidnathan/react_1.git
 
-# optional steps
-# git push -u origin main 
-# npm install gh-pages --save-dev
+# steps 4
+# git push -u origin master
+# npm install gh-pages --save-dev (Repeating)
 
-# step 3
+# step 5
 # go to package.json-> next to version, private key add below
 # "homepage" : "https://gitidnathan.github.io/react_1",
 # under package section add below keys
 # "predeploy" : "npm run build",
 # "deploy" : "gh.pages -d build"
 
-# step 4 (terminal)
+# step 6 (terminal)
 # npm run deploy
 
 # https://www.geeksforgeeks.org/
